@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: 'Bangers';
-  src: url(./fonts/bangers/Bangers-Regular.ttf) format('truetype');
+  src: url(./assets/fonts/bangers/Bangers-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 @font-face {
   font-family: 'Comic Neue';
-  src: url(./fonts/comic-neue/ComicNeue-Regular.ttf) format('truetype');
+  src: url(./assets/fonts/comic-neue/ComicNeue-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 @font-face {
   font-family: 'Comic Neue';
-  src: url(./fonts/comic-neue/ComicNeue-Bold.ttf) format('truetype');
+  src: url(./assets/fonts/comic-neue/ComicNeue-Bold.ttf) format('truetype');
   font-weight: bold;
 }
 @font-face {
   font-family: 'Comic Neue';
-  src: url(./fonts/comic-neue/ComicNeue-BoldItalic.ttf) format('truetype');
+  src: url(./assets/fonts/comic-neue/ComicNeue-BoldItalic.ttf) format('truetype');
   font-weight: bold;
   font-style: italic;
 }
@@ -64,9 +64,10 @@ p {
 }
 
 body {
-  margin: 0;
   display: flex;
   justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .flex-container {
@@ -110,27 +111,27 @@ body {
 
 /* Background Comics */
 .dave-comic {
-  background-image: url("./images/dave-comic.png");
+  background-image: url("./assets/images/dave-comic.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .nick-comic {
-  background-image: url("./images/nick-comic.png");
+  background-image: url("./assets/images/nick-comic.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .craig-comic {
-  background-image: url("./images/craig-comic.png");
+  background-image: url("./assets/images/craig-comic.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .geoff-comic {
-  background-image: url("./images/geoff-comic.png");
+  background-image: url("./assets/images/geoff-comic.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .brenton-comic {
-  background-image: url("./images/brenton-comic.png");
+  background-image: url("./assets/images/brenton-comic.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -199,7 +200,7 @@ body {
   background-color: var(--nicks-name-color);
   width: 285px;
 }
-.nick-red.title-name span {
+.nick-red.title-name {
   color: white;
 }
 
@@ -210,7 +211,7 @@ body {
   background-color: var(--craigs-name-color);
   width: 265px;
 }
-.craig-orange.title-name span {
+.craig-orange.title-name {
   color: white;
 }
 
@@ -221,7 +222,7 @@ body {
   background-color: var(--geoffs-name-color);
   width: 265px;
 }
-.geoff-pink.title-name span {
+.geoff-pink.title-name {
   color: white;
 }
 
@@ -291,38 +292,38 @@ body {
   position: relative;
   top: 2px;
 }
-.card-info p:nth-child(2) span {
+/* .card-info p:nth-child(2) span {
   position: relative;
   top: 2px;
   right: 3px;
-}
+} */
 .card-info p:nth-child(3) {
   position: relative;
   top: 2px;
 }
-.card-info p:nth-child(3) span {
+/* .card-info p:nth-child(3) span {
   position: relative;
   top: 2px;
   right: 3px;
-}
+} */
 .card-info p:nth-child(4) {
   position: relative;
   top: 1px;
 }
-.card-info p:nth-child(4) span {
+/* .card-info p:nth-child(4) span {
   position: relative;
   top: 1px;
   right: 3px;
-}
+} */
 .card-info p:nth-child(5) {
   position: relative;
   top: 3px;
 }
-.card-info p:nth-child(5) span {
+/* .card-info p:nth-child(5) span {
   position: relative;
   top: 1px;
   right: 3px;
-}
+} */
 
 /* Set Attribute Colors */
 .daves-card.attribute:before {
@@ -332,14 +333,14 @@ body {
 .nicks-card.attribute:before {
   background-color: var(--nicks-attribute-color);
 }
-.nicks-card.attribute span {
+.nicks-card.attribute {
   color: white;
 }
 
 .craigs-card.attribute:before {
   background-color: var(--craigs-attribute-color);
 }
-.craigs-card.attribute span {
+.craigs-card.attribute {
   color: white;
 }
 
@@ -421,7 +422,7 @@ body {
 }
 .card-info p:nth-child(6) span {
   position: relative;
-  left: 10px;
+  left: 6px;
 }
 .card-info p:nth-child(7) span {
   position: relative;

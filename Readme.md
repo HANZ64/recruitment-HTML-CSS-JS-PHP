@@ -1,4 +1,4 @@
-Accent Design Front End Technical Test
+﻿Accent Design Front End Technical Test
 ======================================
 
 Thanks for your interest in the role of front-end web developer at Accent Design. We are looking for an experienced full stack developer with skills in HTML, CSS/SCSS and JavaScript, and with good communication skills, to join our established team developing websites, web-based software systems and mobile apps. The successful candidate will join the team on a full-time basis either as a remote worker, or at our studio in Norwich, UK. We are a small team, so you will be a big part of it. Your voice will be heard and you will be expected to take on jobs outside of your comfort zone.
@@ -14,7 +14,7 @@ The programming challenge is in 2 parts:
 
 ### Part A: HTML + CSS
 
-![front-end_visual_screen](front-end_visual_screen.png)
+![front-end_visual_screen](./assets/front-end_visual_screen.png)
 
 We would like you to:
 - Create a layout based on the given screen for which PNG and XD files are included in this repo (front-end_visual_screen.png, front-end_visual_screen.xd). If you don't already have XD, you should, and you can download it for free from adobe.com.
