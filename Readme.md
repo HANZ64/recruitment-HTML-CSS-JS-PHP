@@ -1,4 +1,8 @@
-﻿Accent Design Front End Technical Test
+﻿Part B: https://hanif.tech/study-notes/projects/accent-design-front-end-technical-test/
+
+-----
+
+Accent Design Front End Technical Test
 ======================================
 
 Thanks for your interest in the role of front-end web developer at Accent Design. We are looking for an experienced full stack developer with skills in HTML, CSS/SCSS and JavaScript, and with good communication skills, to join our established team developing websites, web-based software systems and mobile apps. The successful candidate will join the team on a full-time basis either as a remote worker, or at our studio in Norwich, UK. We are a small team, so you will be a big part of it. Your voice will be heard and you will be expected to take on jobs outside of your comfort zone.
