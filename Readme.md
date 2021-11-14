@@ -1,6 +1,4 @@
-﻿Part A + B (Project Complete): https://hanif.tech/study-notes/projects/accent-design-front-end-technical-test/
-
-Part A: https://hanz64.github.io/recruitment-HTML-CSS-JS-PHP/
+﻿Part A: https://hanz64.github.io/recruitment-HTML-CSS-JS-PHP/
 
 -----
 
